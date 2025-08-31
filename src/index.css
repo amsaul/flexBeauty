@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  border: none;
+  outline: none;
+  overflow-x: hidden;
 }
 
 body{
@@ -13,5 +16,6 @@ body{
 }
 
 main{
-  min-height: 75vh;
+  min-height: 100vh;
+  padding-top: 85px;
 }

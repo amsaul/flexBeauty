@@ -1,6 +1,11 @@
 function Products() {
     return(
-        <div> this is the products page</div>
+        <>
+            <div className="wrapper">
+                <h2>our Products</h2>
+                <div className="card"></div>
+            </div>
+        </>
     )
 }
 
