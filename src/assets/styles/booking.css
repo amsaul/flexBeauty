@@ -1,0 +1,54 @@
+.bookingform{
+    /* border: 1px black solid; */
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #eba5cd;
+    text-transform: capitalize;
+}
+
+.bookingform label{
+    margin-bottom: 5px;
+}
+
+.bookingform input{
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.bookingform input{
+    width: 100%;
+    padding: 10px;
+    cursor: none;
+    border: 1px #e68bbe solid;
+}
+
+.bookingform form{
+    display: flex;
+    flex-direction: column;
+}
+
+.bookingform form button{
+    width: 100%;
+    background: #e68bbe;
+}
+
+.bookingform h2{
+    font-size: 2rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.bookingform label{
+    font-size: 1.5rem;
+}
+
+textarea{
+    border: 1px #e68bbe solid;
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    border-radius: 4px;
+}
